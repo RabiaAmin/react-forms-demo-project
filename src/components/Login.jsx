@@ -14,7 +14,7 @@ export default function Login() {
 
   function handleInputChange(identifier, value){
     setEnteredValue(preValue => ({
-      ...[preValue],
+      ...preValue,
       [identifier]:value
     }))
   }
